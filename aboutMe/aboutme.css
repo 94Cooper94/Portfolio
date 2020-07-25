@@ -4,3 +4,9 @@
 h1 {
     text-align: center;
 }
+body {
+    background-color: grey;
+}
+.fixed-bottom {
+    text-align: center;
+}
