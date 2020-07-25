@@ -13,3 +13,9 @@ body {
 .fixed-bottom {
     text-align: center;
 }
+label {
+    color: white; /* SO MUCH EASIER TO READ */
+}
+.container {
+    justify-content: center;
+}
