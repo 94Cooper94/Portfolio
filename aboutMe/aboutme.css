@@ -1,12 +1,6 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
 h1 {
     text-align: center;
-}
-img {
-    /* google: bootstrap responsive images */
-    width: 50%; 
-    display: block;
-    overflow: auto;
-}
-.col {
-    background: grey;
 }

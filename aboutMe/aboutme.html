@@ -1,6 +1,4 @@
-<!-- scrapped original project which is saved elsewhere. goal here is to provide content.
-in tandem with providing content, i need to design a grid system to enhance aesthetic.
-"wireframe" i.e. sketch the design i intend to have with aboutMe section -->
+<!-- needs footer/header; grids according to wireframe (roughly) and aesthetic -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +7,7 @@ in tandem with providing content, i need to design a grid system to enhance aest
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">    <!-- stylesheet -->
     <link rel="stylesheet" href="aboutme.css">
     <title>Cooper's Bio</title>
 </head>
@@ -25,29 +23,35 @@ in tandem with providing content, i need to design a grid system to enhance aest
     </div>
 
     <!-- navbar -->
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="../index.html">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="aboutme.html">About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="../portfolio/portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="../contactPage/contact.html">Contact Me</a>
-        </li>
-    </ul>
-
+    <div class="sticky-top">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="../portfolio/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-link" href="../contactPage/contact.html">Contact Me</a>
+            </li>
+        </ul>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="cooppic.jpg" alt="Cooper & Buddy">
+                <img src="cooppic.jpg" class="img-fluid" alt="Buddy & Cooper">
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <h1>Cooper Ahearn:</h1>
+                <h1>Cooper Ahearn:</h1>                
+                <ul>
+                    <li>Avid Climber</li> <!-- add pic -->
+                    <li>Computer Connoisseur</li>
+                    <li>Painter, Writer, Explorer</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -58,17 +62,7 @@ in tandem with providing content, i need to design a grid system to enhance aest
             </div>
         </div> -->
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <ul>
-                    <li>Avid Climber</li> <!-- add pic -->
-                    <li>Computer Connoisseur</li>
-                    <li>Painter, Writer, Explorer</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+
 </body>
 </html>
 
