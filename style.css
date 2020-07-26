@@ -5,6 +5,13 @@
 h1 {
     text-align: center;
 }
+/* background image, stretched to tell a story */
 body {
-    background-color: grey;
+    background-image: url(coopbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    width: 18rem;
+    background-color:#8FF4F7;
 }
