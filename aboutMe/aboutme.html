@@ -5,25 +5,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap -->
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="../reset.css">
+    <!-- bootstraps -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">    <!-- stylesheet -->
+    <!-- main stylesheet -->
     <link rel="stylesheet" href="aboutme.css">
     <title>Cooper's Bio</title>
 </head>
 <body>
 
 <!-- header -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 id="navHere">.cooperAhearn{webDeveloper:100%;}</h1>
-        </div>
-    </div>
-</div>
+<h1 id="navHere">Cooper Ahearn<br>Content Developer</h1>
 
 <!-- navbar -->
-<div class="sticky-top">
+<nav class="sticky-top">
     <ul class="nav justify-content-center" style="background-color: darkslategray; margin-left: 25px; margin-right: 25px">
         <li class="nav-item">
             <a class="nav-link" id="nav-link" href="../index.html">
@@ -46,37 +43,55 @@
             </a>
         </li>
     </ul>
-</div>
-<br><br>
+</nav>
+<br>
+<div id="techWiz"></div>
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <img src="trueTechWiz.png" alt="the truth" id="techWiz">
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div> -->
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
-            <div class="jumbotron jumbotron-fluid" style="background-color: grey;">
-                <div class="container">
-                  <h1 class="display-4">Cooper Ahearn</h1>
-                  <p class="lead">
-                        <ul><li>Web Developer</li><li>Hobby Investor</li><li>Recreational Artist</li><li>Outdoor Enthusiast</li>
-                        </ul>
+        <div class="col-4">
+            <h2>About Me:</h2>
+            <div class="card" style="width: 18rem;">
+            <img src="315.jpg" class="card-img-top" alt="Cooper Contemplates">
+                <div class="card-body">
+                    <p class="card-text">Cooper contemplates the technology behind the scenes that runs global Disney.</p>
                 </div>
             </div>
+                <p>Born in New Orleans to artists Julie & Luke Ahearn, Cooper quickly found himself surrounded by modes of self-expression. At age 6, Cooper's family relocated to Monterey, CA. Having to switch schools numerous times, Cooper found most solace in video games.</p>
+
         </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="cooppic.jpg" class="card-img-top" alt="Buddy & Cooper">
-                <div class="card-body">
-                  <p class="card-text">Cooper (right) with esteemed photographer Aaron Nelson (left).</p>
+        <div class="col-8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p>In elementary school, Cooper would often sneak his Game Boy Color onto the playground or would spend his recesses and lunches in the classroom/library to play web browser games. This evolved in the Winter of '05, Cooper's fifth grade year, after getting into World of Warcraft.</p>
+                        <img src="cooppic.jpg" class="card-img-top" alt="Buddy & Cooper">
+                        <div class="card-body">
+                            <p class="card-text">Cooper (right) with esteemed photographer Aaron Nelson (left).</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-  
 <!-- footer -->
-<div class="fixed-bottom" style="background-color: darkslategray; margin-left: 25px; margin-right: 25px">
+<footer class="fixed-bottom" style="background-color: darkslategray; margin-left: 25px; margin-right: 25px">
     <a href="#navHere">
         <div class="btn-group btn-group-lg" role="group" aria-label="...">To Top of Page</div>
     </a>
-</div>
+</footer>
 </body>
 </html>
 

@@ -3,10 +3,14 @@
 }
 h1 {
     text-align: center;
+    padding: 25px;
 }
+/* placeholder */
 body {
     background-color: grey;
 }
-.fixed-bottom {
+/* always nice to have a congruent footer */
+footer {
     text-align: center;
+    padding-bottom: 7px;
 }

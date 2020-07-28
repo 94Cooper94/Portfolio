@@ -1,9 +1,9 @@
 * {
     font-family: 'Ubuntu', sans-serif;
-    text-align: center;
 }
 h1 {
     text-align: center;
+    padding: 25px;
 }
 /* background image, stretched to tell a story */
 body {
@@ -14,4 +14,8 @@ body {
 .card {
     width: 18rem;
     background-color:#8FF4F7;
+}
+footer {
+    text-align: center;
+    padding-bottom: 7px;
 }

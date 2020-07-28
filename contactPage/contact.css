@@ -3,6 +3,7 @@
 }
 h1 {
     text-align: center;
+    padding: 25px;
 }
 h2 {
     text-align: center;
@@ -10,12 +11,20 @@ h2 {
 body {
     background-color: grey;
 }
-.fixed-bottom {
-    text-align: center;
-}
 label {
-    color: white; /* SO MUCH EASIER TO READ */
+    color: white; /* clean; contrasts the black well */
 }
+/* looks much better centered than to either side
+but somehow the text floating left looks better than centered */
 .container {
     justify-content: center;
+}
+/* so the footer doesn't overlap the input field */
+#exampleFormControlTextarea1 {
+    margin-bottom: 50px;
+}
+/* centered is clean */
+footer {
+    text-align: center;
+    padding-bottom: 7px;
 }
