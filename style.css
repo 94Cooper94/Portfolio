@@ -1,5 +1,9 @@
 * {
     font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+#navHere {
+    color: black;
 }
 h1 {
     text-align: center;
@@ -12,8 +16,10 @@ body {
     background-size: cover;
 }
 .card {
-    width: 18rem;
-    background-color:#8FF4F7;
+    min-width: 38%;
+    max-width: 38%;
+    background-color: darkslategray;
+    margin-bottom: 45px;
 }
 footer {
     text-align: center;

@@ -9,16 +9,6 @@ h1, h2, h4 {
 p {
     padding-bottom: 30px;
 }
-#techWiz {
-    background-image: url(trueTechWiz.png);
-    max-width: 100%;
-    min-height: 300px;
-    margin-bottom: 25px;
-    border: 2px solid darkslategray;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 ul {
     text-align: center;
 }
@@ -27,7 +17,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card {
+.card { 
     justify-content: center;
     text-align: center;
     background: transparent;

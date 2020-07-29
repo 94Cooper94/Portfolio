@@ -1,5 +1,6 @@
 * {
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 h1 {
     text-align: center;
@@ -9,10 +10,9 @@ h2 {
     text-align: center;
 }
 body {
-    background-color: grey;
-}
-label {
-    color: white; /* clean; contrasts the black well */
+    background-image: url(carrierBirbs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* looks much better centered than to either side
 but somehow the text floating left looks better than centered */
