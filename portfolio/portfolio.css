@@ -1,26 +1,45 @@
+/* white text still looks great */
 * {
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
+/* universal navbar css */
+#navvy {
+    background-color: darkslategray;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/* centered text with room for space */
 h1, h2 {
     text-align: center;
     padding: 25px;
 }
+/* so the footer doesn't overlap */
 .carousel-item {
     margin-bottom: 45px;
 }
+/* because these cards make great responsive content holders */
 .card {
     background-color: transparent;
     border: transparent;
 }
-/* placeholder */
+/* placeholder img that i love */
 body {
     background-image: url(stringTheory.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* aesthetic to corral eyes */
+#cardyCard {
+    background-color: darkslategray;
+    text-align: center;
+    margin-bottom: 50px;
+}
 /* always nice to have a congruent footer */
 footer {
     text-align: center;
     padding-bottom: 7px;
+    background-color: darkslategray;
+    margin-left: 25px;
+    margin-right: 25px;
 }

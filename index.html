@@ -1,5 +1,6 @@
-<!-- needs footer/header; grids according to wireframe (roughly) and aesthetic -->
-
+<!-- Hello and welcome. Overall there are a few elements left that I'd still like -->
+<!-- to tamper with in the immediate future, but overall I anticipate working on -->
+<!-- this site, or renditions of it, indefinitely. Thank you for having a look. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,12 +17,18 @@
 </head>
 <body>
 
-<!-- header -->
+<!-- i chose to go simple with the header for each page of because -->
+<!-- i enjoy the aesthetic of a simple header with the navbar acting as -->
+<!-- a faux underline. it makes each page look clean, although i'll admit -->
+<!-- the background images can be distracting on certain pages. -->
 <h1 id="navHere">Cooper Ahearn<br>Content Developer</h1>
 
-<!-- navbar menu -->
+<!-- navbar menu that sticks to the top no matter where the user is on the page. -->
+<!-- i created a home page for fun. i had already done multiple commits with the -->
+<!-- file structure being the way it is, and didn't want to scrap or ruin -->
+<!-- the project, so i elected to keep it as is. -->
 <nav class="sticky-top">
-  <ul class="nav justify-content-center" style="background-color: darkslategray; margin-left: 25px; margin-right: 25px">
+  <ul class="nav justify-content-center" id="navvy">
     <li class="nav-item">
       <a class="nav-link" id="nav-link" href="./index.html">
         <div class="btn-group btn-group-lg" role="group" aria-label="...">Home</div>
@@ -46,38 +53,40 @@
 </nav>
 <br><br>
 
-<!-- so, below I'm attempting to work in a clickable icon of some such..
-Ideally it would navigate to my about me and portfolio page, give a minor display,
-but fit in with the background. I may just need a new background overall. -->
-<div class="container">
-  <div class="row">
-    <div class="col">
+<!-- here i have two bootstrapped cards that stack vertically on -->
+<!-- a mobile device downwards of 360px in width but remains on the -->
+<!-- left-hand column when on a desktop to display the background image. -->
+<main class="container">
+  <section class="row">
+    <section class="col">
     <div class="card">
       <img src="pholder3.jpg" class="card-img-top" alt="placeholder3">
       <div class="card-body">
         <h5 class="card-title">About Me</h5>
         <p class="card-text">I've logged over 300 days /played in WoW. Whatever the task-- I'm committed</p>
+        <!-- this button navigates to my about-me page -->
         <a href="aboutMe/aboutme.html" class="btn btn-primary">About Me</a>
       </div>
     </div>
-    </div>
-    <div class="w-100"></div>
-    <div class="col">
+    </section>
+    <!-- content divider to assist in keeping the two cards separate -->
+    <section class="w-100"></section>
+    <section class="col">
     <div class="card">
       <img src="pholder2.jpg" class="card-img-top" alt="placeholder2">
       <div class="card-body">
         <h5 class="card-title">Portfolio</h5>
         <p class="card-text">It may be empty now, but you'll wish you'd invested earlier once it's full!</p>
+        <!-- this button nagivates to my portfolio -->
         <a href="portfolio/portfolio.html" class="btn btn-primary">Portfolio</a>
       </div>
     </div>
-    </div>
-  </div>    
-</div>
+    </section>
+  </section>    
+</main>
 
-
-  <!-- footer -->
-<footer class="fixed-bottom" style="background-color: darkslategray; margin-left: 25px; margin-right: 25px">
+<!-- sticky footer due to the fixed-bottom class. decided to make it navigate to the top for mobile users in particular. i dont have any branding or useful hrefs to include in a footer that would remain attached to the bottom of the page. -->
+<footer class="fixed-bottom">
   <a href="#navHere">
     <div class="btn-group btn-group-lg" role="group" aria-label="...">To Top of Page</div>
   </a>

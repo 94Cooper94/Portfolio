@@ -1,21 +1,31 @@
+/* uplifting and light aesthetic */
 * {
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
+/* centered, given space */
 h1 {
     text-align: center;
     padding: 25px;
 }
+/* universal navbar css */
+#navvy {
+    background-color: darkslategray;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/* centered as well, but i liked the submission forms being left-aligned */
 h2 {
     text-align: center;
 }
+/* another placeholder image, as are most */
 body {
     background-image: url(carrierBirbs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* looks much better centered than to either side
-but somehow the text floating left looks better than centered */
+/* looks much better centered than to either side but */
+/*somehow the text floating left looks better than centered */
 .container {
     justify-content: center;
 }
@@ -27,4 +37,7 @@ but somehow the text floating left looks better than centered */
 footer {
     text-align: center;
     padding-bottom: 7px;
+    background-color: darkslategray;
+    margin-left: 25px;
+    margin-right: 25px;
 }

@@ -1,27 +1,41 @@
+/* went ahead and made almost all the font white */
 * {
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
+/* almost all the font except for the header.. the clouds were white */
 #navHere {
     color: black;
 }
+/* makes the navbar into the faux underline and body content wrapper */
+#navvy {
+    background-color: darkslategray;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/* i appreciate a centered title */
 h1 {
     text-align: center;
     padding: 25px;
 }
-/* background image, stretched to tell a story */
+/* background image: a stretched story you wont hear again */
 body {
     background-image: url(coopbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* i didn't want the cards exceeding a certain width */
 .card {
     min-width: 38%;
     max-width: 38%;
     background-color: darkslategray;
     margin-bottom: 45px;
 }
+/* centered and grey creating a nice closing border to the site */
 footer {
     text-align: center;
     padding-bottom: 7px;
+    background-color: darkslategray;
+    margin-left: 25px;
+    margin-right: 25px;
 }

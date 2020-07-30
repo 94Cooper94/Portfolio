@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="../reset.css">
     <!-- bootstraps -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">    <!-- stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <!-- main stylesheet -->
     <link rel="stylesheet" href="aboutme.css">
     <title>Cooper's Bio</title>
 </head>
 <body>
 
-<!-- header -->
+<!-- header. simple title that pops over the background with a navbar acting as a faux underline -->
 <h1 id="navHere">Cooper Ahearn<br>Content Developer</h1>
 
-<!-- navbar -->
+<!-- navbar & faux underline to title. creates a nice wrap to the body content of the site -->
 <nav class="sticky-top">
-    <ul class="nav justify-content-center" style="background-color: darkslategray; margin-left: 25px; margin-right: 25px">
+    <ul class="nav justify-content-center" id="navvy">
         <li class="nav-item">
             <a class="nav-link" id="nav-link" href="../index.html">
                 <div class="btn-group btn-group-lg" role="group" aria-label="...">Home</div>
@@ -43,24 +43,34 @@
     </ul>
 </nav>
 <br>
-<div class="container">
-    <div class="row">
-        <div class="col">
+
+<!-- used a card, with no set-width, within a container to -->
+<!-- have an image that auto-resizes based on user's device -->
+<!-- made it an article as its a standalone piece of content -->
+
+<!-- i get more into the choice of main, section, aside, etc -->
+<!-- in the portfolio and contactme htmls -->
+<article class="container">
+    <section class="row">
+        <section class="col">
             <div class="card">
                 <img src="trueTechWiz.png" class="card-img-top" alt="Tech Wiz">
             </div>
-        </div>
-    </div>
-</div>>
-<div class="container">
-    <div class="row">
-        <div class="col">
+        </section>
+    </section>
+</article>
+
+<main class="container">
+    <section class="row">
+        <section class="col">
+            <!-- below you'll find a series of cards, similar to the tech wiz img-card above -->
+            <!-- that beautifully resize upon each other depending on screen size -->
             <h2>About Me:</h2>
             <div class="card">
                 <p>Born in New Orleans to artists Julie & Luke Ahearn, Cooper quickly found himself surrounded by modes of self-expression. At age 6, Cooper's family relocated to Monterey, CA. Having to switch schools numerous times, Cooper found most solace in video games. In elementary school, Cooper would often sneak his Game Boy Color onto the playground or would spend his recesses and lunches in the classroom-</p>
             </div>
             <div class="card">
-            <img src="315.jpg" class="card-img-top" alt="Cooper Contemplates">
+                <img src="315.jpg" class="card-img-top" alt="Cooper Contemplates">
                 <div class="card-body">
                     <p class="card-text">Cooper contemplates the technology behind the scenes that runs global Disney.</p>
                 </div>
@@ -68,7 +78,7 @@
             <div class="card">
                 <p>-library to play web browser games. This evolved in the Winter of '05, Cooper's fifth grade year, after getting into World of Warcraft. From that point forward, Cooper found upgrading his computer to remain relevant irresistable. Understanding server protocol, navigating directories, understanding the logic behind firewalls-- everything tech related fascinated Cooper.</p>
             </div>
-            <div class="col">
+            <div class="card">
                 <img src="wowDays.jpg" class="card-img-top" alt="WoW Gamin'">
                 <div class="card-body">
                     <p class="card-text">Cooper (right) with esteemed photographer Aaron Nelson (left).</p>
@@ -81,13 +91,16 @@
             <div class="card">
                 <p>University classes, online courses-- Cooper took every opportunity to explore the outer most recesses of the internet. After graduating from college, Cooper took an indirect path towards pursuing a career in the tech industry by serving at restaurants LOL blah blah blah more coming soon!</p>
             </div>
-        </div>
-    </div>
-<!-- footer -->
-<footer class="fixed-bottom" style="background-color: darkslategray; margin-left: 25px; margin-right: 25px">
+        </section>
+    </section>
+</main>
+
+<!-- footer. sticky, mobile-friendly bounces user to top -->
+<footer class="fixed-bottom">
     <a href="#navHere">
         <div class="btn-group btn-group-lg" role="group" aria-label="...">To Top of Page</div>
     </a>
 </footer>
+
 </body>
 </html>
