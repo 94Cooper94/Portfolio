@@ -20,7 +20,7 @@ h1 {
 }
 /* background image: a stretched story you wont hear again */
 body {
-    background-image: url(../media/coopbg.jpg);
+    background-image: url(media/coopbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
