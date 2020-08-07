@@ -1,8 +1,8 @@
 # aboutMe
 
-https://94cooper94.github.io/aboutMe/
-
 ![Tech Wiz](media/trueTechWiz.png)
+
+https://94cooper94.github.io/aboutMe/
 
 Included in this repository is my (Cooper Ahearn) personal website.
 The conglomerate of websites can be broken down into four individual sites.
