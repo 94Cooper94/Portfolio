@@ -20,7 +20,7 @@ h2 {
 }
 /* another placeholder image, as are most */
 body {
-    background-image: url(carrierBirbs.jpg);
+    background-image: url(../media/carrierBirbs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

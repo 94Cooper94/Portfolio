@@ -24,7 +24,7 @@ ul {
 }
 /* this background image says that i work around the clock and while everyone else is asleep */
 body {
-    background-image: url(earthAtNight.jpg);
+    background-image: url(../media/earthAtNight.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
