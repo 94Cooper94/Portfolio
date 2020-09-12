@@ -1,4 +1,4 @@
-# aboutMe
+# Portfolio
 
 ## Deployed Site: https://94cooper94.github.io/aboutMe/
 
