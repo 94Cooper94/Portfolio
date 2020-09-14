@@ -1,21 +1,13 @@
 # Portfolio
 
-## Deployed Site: https://94cooper94.github.io/Portfolio/
+## Deployed Site: https://94cooper94.github.io/portfolio/
 
-![Tech Wiz](media/trueTechWiz.png)
+Welcome to the thoroughly crafted & maintained portfolio of Cooper Ahearn. Above you'll find the deployed site so you can peruse my backstory and creations at your leisure.
 
-Included in this repository is my (Cooper Ahearn) personal website.
-The conglomerate of websites can be broken down into four individual sites.
-Index.html, directly in the repository, includes the homepage.
-The homepage navigates users to either the about-me or portfolio pages.
-Within the aboutMe/ is the aboutMe.html, which is... about me.
-This includes basic background information and some filler photos.
-Within the portfolio/ is the portfolio.html which will include future projects.
+![header](./media/portfolioHeader.PNG)
 
-Also nestled into my portfolio are links to my github, linkedin,
-and an inner-reference to the contactMe page!
-Within the contactMe/ is the contactMe.html containing a submission field.
-Unfortunately the field isnt linked to javascript.
-Fortunately, each page is tied together with a thoughtful and responsive navbar.
+You'll find that each section is carefully designed to capture my quarky personality while also featuring the most attractive facet of each included project.
 
-Enjoy<3
+![body content](./media/portfolioPortfolio.PNG)
+
+As always, feel free to reach out if you have any questions or comments. Bonus if you navigate my portfolio site to find the various available methods to reach me!
