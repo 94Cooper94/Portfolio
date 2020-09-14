@@ -1,17 +1,36 @@
+* {
+  color: #d3bc8d;
+}
+
+#aboutme {
+  position: relative;
+  left: 0;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #d3bc8d;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
 }
 
 #navigation {
   background-color: rgb(24, 24, 24);
 }
 
+.card {
+  background-color: transparent;
+  max-height: 400px;
+  border: 2px solid #d3bc8d;
+}
+
 p {
   line-height: 2rem;
 }
 
-h1, h2 {
+h1, h2, h4 {
   color:  #d3bc8d;
 }
 
