@@ -13,3 +13,9 @@ You'll find that each section is carefully designed to capture my quarky persona
 As always, feel free to reach out if you have any questions or comments. Bonus if you navigate my portfolio site to find the various available methods to reach me!
 
 ![body](./media/portfolioPortfolio.PNG)
+
+## Technologies Used:
+- GitHub & GitHub Pages
+- HTML & CSS
+- Materialize CSS & JavaScript Bootstrap
+- JavaScript & JQuery
