@@ -1,100 +1,175 @@
-<!-- Hello and welcome. Overall there are a few elements left that I'd still like -->
-<!-- to tamper with in the immediate future, but overall I anticipate working on -->
-<!-- this site, or renditions of it, indefinitely. Thank you for having a look. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS reset -->
-    <link rel="stylesheet" href="reset.css">
-    <!-- bootstraps -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <!-- main stylesheet -->
-    <link rel="stylesheet" href="style.css">    
-    <title>Cooper's Homepage</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Cooper Portfolio</title>
+
+  <!-- CSS  -->
+  <link href="css/reset.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
+  
 
-<!-- i chose to go simple with the header for each page of because -->
-<!-- i enjoy the aesthetic of a simple header with the navbar acting as -->
-<!-- a faux underline. it makes each page look clean, although i'll admit -->
-<!-- the background images can be distracting on certain pages. -->
-<h1 id="navHere">Cooper Ahearn<br>Content Developer</h1>
+  <!-- NAVBAR -->
+  <nav id="navigation" role="navigation">
+    <div class="nav-wrapper container">
+      <a class="brand-logo">Cooper Ahearn</a>
+      <ul id="nav-desktop" class="right hide-on-med-and-down">
+        <li><a href="https://www.linkedin.com/in/lcahearn/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/94Cooper94" target="_blank">Portfolio</a></li>
+        <li><a href="https://www.twitch.tv/dojagoat" target="_blank">20% Project</a></li>
+      </ul>
 
-<!-- navbar menu that sticks to the top no matter where the user is on the page. -->
-<!-- i created a home page for fun. i had already done multiple commits with the -->
-<!-- file structure being the way it is, and didn't want to scrap or ruin -->
-<!-- the project, so i elected to keep it as is. -->
-<nav class="sticky-top">
-  <ul class="nav justify-content-center" id="navvy">
-    <li class="nav-item">
-      <a class="nav-link" id="nav-link" href="index.html">
-        <div class="btn-group btn-group-lg" role="group" aria-label="...">Home</div>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="nav-link" href="./aboutMe/aboutme.html">
-        <div class="btn-group btn-group-lg" role="group" aria-label="...">About Me</div>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="nav-link" href="./portfolio/portfolio.html">
-        <div class="btn-group btn-group-lg" role="group" aria-label="...">Portfolio</div>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="nav-link" href="./contactPage/contact.html">
-        <div class="btn-group btn-group-lg" role="group" aria-label="...">Contact Me</div>
-      </a>
-    </li>
-  </ul>
-</nav>
-<br><br>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="https://www.linkedin.com/in/lcahearn/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/94Cooper94" target="_blank">Portfolio</a></li>
+        <li><a href="https://www.twitch.tv/dojagoat" target="_blank">20% Project</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- END NAVBAR -->
 
-<!-- here i have two bootstrapped cards that stack vertically on -->
-<!-- a mobile device downwards of 360px in width but remains on the -->
-<!-- left-hand column when on a desktop to display the background image. -->
-<main class="container">
-  <section class="row">
-    <section class="col">
-    <div class="card">
-      <img src="media/pholder3.jpg" class="card-img-top" alt="placeholder3">
-      <div class="card-body">
-        <h5 class="card-title">About Me</h5>
-        <p class="card-text">I've logged over 300 days /played in WoW. Whatever the task-- I'm committed</p>
-        <!-- this button navigates to my about-me page -->
-        <a href="aboutMe/aboutme.html" class="btn btn-primary">About Me</a>
+
+  <!-- PARALLAX 1 -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <!-- <h1 class="header center">Tap Your Potential</h1> -->
+        <div class="row center">
+          <!-- <h3 class="header col s12 m12 l12"></h3> -->
+        </div>
+        <br><br>
       </div>
     </div>
-    </section>
-    <!-- content divider to assist in keeping the two cards separate -->
-    <section class="w-100"></section>
-    <section class="col">
-    <div class="card">
-      <img src="media/pholder2.jpg" class="card-img-top" alt="placeholder2">
-      <div class="card-body">
-        <h5 class="card-title">Portfolio</h5>
-        <p class="card-text">It may be empty now, but you'll wish you'd invested earlier once it's full!</p>
-        <!-- this button nagivates to my portfolio -->
-        <a href="portfolio/portfolio.html" class="btn btn-primary">Portfolio</a>
+    <div class="parallax"><img src="./media/coopbg.jpg" alt="monterey bay background"></div>
+  </div>
+  <!-- END PARALLAX 1 -->
+
+
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <h3>About Me:</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light"></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light"></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"></h2>
+            <h5 class="center">Easy to work with</h5>
+              <img src="media/coopHeadshot.jpeg" alt="headshot" style="max-height: 250px;">
+            <p class="light"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- PARALLAX 2 -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
       </div>
     </div>
-    </section>
-  </section>    
-</main>
-
-<!-- sticky footer due to the fixed-bottom class. decided to make it navigate to the top for mobile users in particular. i dont have any branding or useful hrefs to include in a footer that would remain attached to the bottom of the page. -->
-<footer class="fixed-bottom">
-  <a href="#navHere">
-    <div class="btn-group btn-group-lg" role="group" aria-label="...">To Top of Page</div>
-  </a>
-</footer>
+    <div class="parallax"><img src="./media/coopCandid.jpeg" alt="Unsplashed background img 2"></div>
+  </div>
+  <!-- END PARALLAX 2 -->
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- PARALLAX 3 -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./media/coopHeadshot.jpeg" alt="Unsplashed background img 3"></div>
+  </div>
+  <!-- END PARALLAX 3 -->
+
+
+  <!-- FOOTER -->
+  <footer class="fixed-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 center">
+          <br>
+          <h5 class="white-text">Contact:</h5>
+          <ul>
+            <li>Email: <a href="LCAhearn94@gmail.com" target="_blank">LCAhearn94@gmail.com</a></li>
+            <li>Discord: <a href="https://discord.com/" target="_blank">DojaGoat</a></li>
+            <li>Phone: <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank">831.905.7652</a></li>
+          </ul>
+        </div>
+  
+        <div class="col l6 s12 center">
+          <br>
+          <h5 class="white-text">Network:</h5>
+          <ul>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/lcahearn/" target="_blank">Connect</a></li>
+            <li>GitHub: <a href="https://github.com/94Cooper94" target="_blank">Explore</a></li>
+            <li>Twitch: <a href="https://www.twitch.tv/dojagoat" target="_blank">Observe</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>

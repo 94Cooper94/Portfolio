@@ -1,6 +1,6 @@
 # Portfolio
 
-## Deployed Site: https://94cooper94.github.io/aboutMe/
+## Deployed Site: https://94cooper94.github.io/Portfolio/
 
 ![Tech Wiz](media/trueTechWiz.png)
 
