@@ -3,7 +3,7 @@ $(document).ready(function(){
   });
 
 $('.carousel').carousel({
-    fullWidth: true,
+    fullWidth: true
 });
 autoplay();
 function autoplay() {
