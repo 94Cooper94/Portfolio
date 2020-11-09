@@ -1,21 +1,33 @@
-# Portfolio
+# Portfolio :page_with_curl:
 
-## Deployed Site: https://94cooper94.github.io/portfolio/
+![Brand Image](./media/pics/portfolioPortfolio.PNG)
 
-![header](./media/pics/portfolioHeader.PNG)
+## Table of Contents
+- [Description](#description)
+- [Technology](#technology)
+- [Contributors](#contributors)
+- [Contact](#contact)
 
-Welcome to the thoroughly crafted & maintained portfolio of Cooper Ahearn. Above you'll find the deployed site so you can peruse my backstory and creations at your leisure.
+## Description
+  Welcome to the thoroughly crafted & maintained portfolio of Cooper Ahearn. You'll find a link to the deployed site below, so that you may view samples of my work & read up on my background. You'll find that each section is carefully designed to capture my quarky personality while also featuring the most attractive facet of each included project.
 
-![bio](./media/pics/portfolioBio.PNG)
+### https://94cooper94.github.io/portfolio/
 
-You'll find that each section is carefully designed to capture my quarky personality while also featuring the most attractive facet of each included project.
-
-As always, feel free to reach out if you have any questions or comments. Bonus if you navigate my portfolio site to find the various available methods to reach me!
-
-![body](./media/pics/portfolioPortfolio.PNG)
-
-## Technologies Used:
+## Technology
 - GitHub & GitHub Pages
 - HTML & CSS
 - Materialize CSS & JavaScript Bootstrap
 - JavaScript & JQuery
+
+## Contributor
+
+<a href="https://github.com/94Cooper94">![Profile Image](https://github.com/94Cooper94.png?size=50)</a>
+<a href="https://github.com/94Cooper94">![Badge](https://img.shields.io/badge/Github-94Cooper94-4cbbb9)</a>
+<br>
+Cooper Ahearn
+
+## Contact
+
+Connect with & contact directly via LinkedIn:
+
+:cd: Cooper - <a href="https://www.linkedin.com/in/lcahearn/">LCAhearn</a> :cd:<br>
