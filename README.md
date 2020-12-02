@@ -9,11 +9,13 @@
 
 ## Description
 
+  Welcome to the thoroughly crafted & maintained portfolio of Cooper Ahearn. You'll find a link to the deployed site above, so that you may view samples of my work & read up on my background. You'll find that each section is carefully designed to capture my quarky personality while also featuring the most attractive facet of each included project.
+
 ![Brand Image](./media/pics/portfolioPortfolio.PNG)
 
-## Demo: https://94cooper94.github.io/portfolio/  
+## Demo: 
 
-  Welcome to the thoroughly crafted & maintained portfolio of Cooper Ahearn. You'll find a link to the deployed site above, so that you may view samples of my work & read up on my background. You'll find that each section is carefully designed to capture my quarky personality while also featuring the most attractive facet of each included project.
+  https://94cooper94.github.io/portfolio/  
 
 ## Technology
 - GitHub & GitHub Pages
